@@ -1,0 +1,13 @@
+# Added Code to Display eyes and mouth
+print("Please select a symbol for Beep's eyes")
+eyessymbol = input()
+print("Please select a different symbol for his mouth")
+mouthsymbol = input()
+print("\n\n\t\t\t\t BBBBBBB\t\t\t\t\t")
+print("\t\t\t\t B _ _ B \t\t\t\t")
+print(f"\t\t\t\tB  {eyessymbol} {eyessymbol}  B\t\t\t\t")
+print("\t\t\t  BBB       BBB\t\t\t\t")
+print(f"\t\t\t   BB  {mouthsymbol}{mouthsymbol}{mouthsymbol}  BB\t\t\t\t\t")
+print("\t\t\t\t B     B\t\t\t\t\t\t")
+print("\t\t\t\t   EEE\t\t\t\t\t\t\t")
+print("Isn't he lovely?")
