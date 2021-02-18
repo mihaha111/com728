@@ -1,0 +1,11 @@
+# Added Code to String Operators. Beep's energy levels
+print(" Please enter the number of lives")
+life = int(input())
+print("\n Please enter de energy level")
+energy = int(input())
+print("\n Please enter the shield level")
+shield = int(input())
+print("\n\t Health has been set.")
+print(f"\t Lives: {life*'🌞'}")
+print(f"\t Energy: {energy*'⭐'}")
+print(f"\t Shield: {shield*'♦'}")
