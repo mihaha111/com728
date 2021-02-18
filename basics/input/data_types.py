@@ -1,0 +1,11 @@
+# Added Code to Calculate your BMI
+print("What is your name?")
+name = input()
+print("\n How old are you (in years)")
+years = int(input())
+print("\n How tall are you (in meters)?")
+heigh = float(input())
+print("\n How much do you weigh (in kilograms)?")
+kilograms = int(input())
+print(f"\n\t Dear {name} you are {years} years old and your BMI is {kilograms/heigh**2}")
+print("\t Just to let you know, a normal BMI (weight) is between 18.6 and 24.9")
