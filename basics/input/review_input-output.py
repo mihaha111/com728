@@ -1,4 +1,4 @@
-# Beep feel better
+# Beep feels better
 print("\nThank you for saving me! I am Beep and I am a robot. What is your name?")
 print()
 name = input()
