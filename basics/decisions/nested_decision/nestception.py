@@ -23,7 +23,7 @@ elif place == 'lab':
     else:
         print("Found some tools, but no batteries.")
 else:
-    print(f"\nI don't think the batteries could be in the {place}, but I can try.")
+    print(f"\n\tI don't think the batteries could be in the {place}, but I can try.")
 
 
 
