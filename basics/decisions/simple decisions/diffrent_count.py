@@ -1,5 +1,5 @@
 #Counting (odds and even) without counting if only 3 numbers
-print("Please give me 3 whole numbers - 2 digit.")
+print("Please give me 3 whole numbers.")
 print("first number:")
 number1 = int(input())
 print("your second number is:")
@@ -15,6 +15,6 @@ elif (number1 + number2 + number3) % 2 == 0 and number1 % 2 != 0 and number2 % 2
     print("There are 2 odd numbers and 1 even number")
 else:
     print("There are 3 odd numbers and 1 even number.")
-
-print("done")
+print()
+print("Beep, done the counting now.")
 
