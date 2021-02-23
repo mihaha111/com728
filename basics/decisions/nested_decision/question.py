@@ -6,3 +6,4 @@ val1 = input()
 val2 = input()
 val3 = input()
 # how to choose if only one is yes and the other two are no?
+
