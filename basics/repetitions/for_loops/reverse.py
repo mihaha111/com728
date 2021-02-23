@@ -2,9 +2,11 @@
 print("What phrase do you see?")
 phrase = input()
 print("Reversing...")
-chr = 0
-for count in range(len(phrase), 0, -1):
-    print(f"The phrase is: {phrase[position]}")
-    chr = chr - 1
-    phrase = phrase - 1
-print("Done!")
+print("\nThe phrase is:")
+for position in range(len(phrase) - 1, -1, -1):
+    print(phrase[position], end="")
+print()
+print("\nDone!")
+
+
+#!!!! For POSITION PRINT NO f and NO "  !!!!!!
