@@ -31,7 +31,8 @@ else:
 print("\nDid you like it?")
 
 
-#error works but not properly how to incorporate
-
-
+#error works but not properly
+# how to incorporate ... ot is not counting for the no that don't div by 3
+# ? how to long_number = f'{digit1}{digit2}{digit3}{digit4}{digit5}' make it work in fumction.
+#It will give me the long number, but it will not be condidered as value to be use
 
